@@ -1,0 +1,63 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:task="http://www.springframework.org/schema/task"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+    http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd
+    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task.xsd">
+
+    <!--开启全局注解-->
+    <context:annotation-config/>
+
+
+    <!--启动时初始化Spring上下文环境工具类 ApplicationContext -->
+    <bean id="springContextUtil" class="com.pbs.ams.common.util.SpringContextUtil"></bean>
+    <!-- Spring容器初始化完成监听器 -->
+    <bean class="com.pbs.ams.common.listener.ApplicationContextListener" lazy-init="false"></bean>
+
+    <!-- 装载service -->
+    <context:component-scan base-package="**.service" />
+
+    <!-- 装载自定义bean -->
+    <context:component-scan base-package="**.*" use-default-filters="false">
+        <context:include-filter type="assignable" expression="com.pbs.ams.common.base.BaseInterface"></context:include-filter>
+    </context:component-scan>
+
+
+    <!-- 启动任务注解 -->
+    <task:annotation-driven />
+    <context:component-scan base-package="**.task" />
+
+
+
+    <!-- 加载db.properties文件中的内容，db.properties文件中key命名要有一定的特殊规则 -->
+    <!--<context:property-placeholder location="classpath:jdbc.properties" />-->
+    <!-- 配置数据源 ，dbcp -->
+
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" destroy-method="close">
+        <property name="driverClassName" value="${jdbc.driver}"/>
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.username}" />
+        <property name="password" value="#{T(com.pbs.ams.common.util.AESUtil).AESDecode('${jdbc.password}')}" />
+        <property name="maxActive" value="30" />
+        <!--<property name="maxIdle" value="5" />-->
+    </bean>
+
+
+    <!-- 从整合包里找，org.mybatis:mybatis-spring:1.2.4 -->
+    <!-- sqlSessionFactory -->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <!-- 数据库连接池 -->
+        <property name="dataSource" ref="dataSource" />
+        <!-- 加载mybatis的全局配置文件 -->
+        <property name="configLocation" value="classpath:sqlMapConfig.xml" />
+        <property name="mapperLocations" value="classpath:mappers/*.xml" />
+    </bean>
+    <!-- mapper扫描器 -->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!-- 扫描包路径，如果需要扫描多个包，中间使用半角逗号隔开 -->
+        <property name="basePackage" value="com.pbs.ams.web.mappers"/>
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory" />
+    </bean>
+
+</beans>

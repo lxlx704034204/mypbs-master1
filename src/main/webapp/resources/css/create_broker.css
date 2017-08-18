@@ -1,0 +1,70 @@
+#content {width:100%;margin:0 auto;/*height:500px;*/}
+#content>div {padding:20px 0;/*border:1px solid red;*/}
+.control-label {float: left;margin-right: 10px;width:100px;text-align: right;padding-top: 5px;}
+.rqd {
+    color: #f00;
+    font-style: normal;
+    margin: 0 5px 0 0;
+    font-weight: bold;
+    font-size: 12px;
+}
+.select2-container {margin-bottom: 9px;}
+#day_startDate,
+#night_startDate {margin-left: 0 !important;}
+.block {
+    border: 1px solid #ccc;
+    background: white;
+    margin: 1em 0em;
+}
+p.block-heading, a.block-heading, .block-heading a {
+    color: #505050;
+    background: #dddddd;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #dddddd), color-stop(1, #fafafa));
+    background: -ms-linear-gradient(bottom, #dddddd, #fafafa);
+    background: -moz-linear-gradient(center bottom, #dddddd 0%, #fafafa 100%);
+    background: -o-linear-gradient(bottom, #dddddd, #fafafa);
+    filter: progid:dximagetransform.microsoft.gradient(startColorStr='#4d5b76', EndColorStr='#6c7a95');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#fafafa',EndColorStr='#dddddd')";
+    display: block;
+    padding-left: 1em;
+    border-top: 1px solid #fff;
+    outline: none;
+}
+.block-heading {
+    border-bottom: 1px solid #a6a6a6;
+    border-left: none;
+    color: #505050;
+    display: block;
+    margin-bottom: 0px;
+    text-shadow: none;
+    text-transform: none;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 23px;
+}
+.row-fluid {min-width: 890px;}
+.row-fluid input {margin-bottom: 0 ;}
+.block-body {
+    margin: 1em;
+    min-height: .25em;
+}
+#tradeIdcText {margin-bottom: 0;}
+.block-body h1, .block-body h2, .block-body h3, .block-body h4, .block-body h5, .block-body h6, .block-body table {
+    margin-top: 12px;
+}
+.table-bordered th,
+.table-bordered td{
+    padding: 0;
+    vertical-align: middle;
+    height: 24px;
+    text-align: center;
+}
+#saveBrokerBtn {margin:20px 0 0 40px;}
+
+.hint,.tipsError {
+    display: none;
+    margin-left: 10px;
+    color:#ff0000;
+    position: relative;
+    top:-3px;
+}

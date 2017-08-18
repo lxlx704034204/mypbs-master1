@@ -1,0 +1,177 @@
+body, html {height: 100%; position: relative; font-family: 'Microsoft yahei'; font-size: 13px; font-weight: 400;}
+img {vertical-align: middle;}
+a, a:hover, a:active, a:focus {text-decoration: none; -webkit-user-drag: none; outline: none; color: #000;}
+a i{font-size: 13px;}
+
+#main{padding: 10px 20px 10px;}
+
+/* 数据表格 */
+body{font-size: 12px;}
+.table i{font-size: 12px; color: #000;}
+.bootstrap-table .table>thead>tr>th{border-bottom: none;}
+.bootstrap-table .table:not(.table-condensed), .bootstrap-table .table:not(.table-condensed)>tbody>tr>td, .bootstrap-table .table:not(.table-condensed)>tbody>tr>th, .bootstrap-table .table:not(.table-condensed)>tfoot>tr>td, .bootstrap-table .table:not(.table-condensed)>tfoot>tr>th, .bootstrap-table .table:not(.table-condensed)>thead>tr>td{padding: 12px 8px;}
+/* 分页 */
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus{background: #f5f5f5; color: #000; border-color: #7d7d7d;}
+.pagination>li>a, .pagination>li>span{color: #000;}.dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus{background-color: #999;}
+/* bootstrap */
+.jconfirm .jconfirm-box .jconfirm-buttons button{-webkit-border-radius: 0; border-radius: 0;}
+.btn:active{-webkit-box-shadow: none; box-shadow: none;}
+/* input */
+body .jconfirm{z-index: 999;}
+.jconfirm-content form{margin-top: 10px;}
+.crudDialog{padding: 0 0 2px;}
+.dialog-buttons a{font-weight: bold;}
+.form-group{margin-bottom: 0px;}
+/*.form-group label{position: absolute; line-height: 2; font-size: 16px; font-weight: normal; transition: all .2s; pointer-events: none; color: #999;}*/
+.form-group .active{transform: translateY(-65%); font-size: 12px; color: #337ab7;}
+.form-group .form-control{font-size: 14px; box-shadow: none; padding-left: 0; padding-right: 0; border-radius: 0; border: none; border-bottom: 2px solid #eee; outline: none; transition: all .5s;}
+.form-group .form-control:focus{box-shadow: none; border-color: #337ab7;}
+/*增添按钮的样式*/
+#searchDiv {/*position:absolute;top:10px;left:20px;width:100%;z-index:111;*/overflow: hidden;/*margin-top: 10px;*/}
+#searchDiv>input,
+#searchDiv>.btn_panel{float: left;}
+.btn-primary {
+    color: #000;
+    border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25);
+    background-color: #f5f5f5;
+    font-size: 12px;
+    padding:6px 12px;
+    margin-bottom: 10px;
+}
+#searchDiv>input {margin-right: 20px;}
+.btn-primary:before { content: " + "; }
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:link {
+    color: #333333;
+    background-color: #e6e6e6;
+    *background-color: #d9d9d9;
+}
+/*/查询框样式*/
+#query {display: inline-block;width:auto;}
+/*搜索框的margin */
+.fixed-table-toolbar>div {margin-top: 0!important;}
+/*输入框验证*/
+/*#content {width:100%;margin:0 auto;!*height:500px;*!}
+#content>div {padding:20px 0;!*border:1px solid red;*!}*/
+.control-label {float: left;margin-right: 10px;width:100px;text-align: right;padding-top: 5px;}
+.control-label2 {width:auto;}
+.rqd {
+    color: #f00;
+    font-style: normal;
+    margin: 0 5px 0 0;
+    font-weight: bold;
+    font-size: 12px;
+}
+.select2-container {margin-bottom: 9px;}
+#day_startDate,
+#night_startDate {margin-left: 0 !important;}
+.block {
+    border: 1px solid #ccc;
+    background: white;
+    margin: 1em 0em;
+}
+p.block-heading, a.block-heading, .block-heading a {
+    color: #505050;
+    background: #dddddd;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #dddddd), color-stop(1, #fafafa));
+    background: -ms-linear-gradient(bottom, #dddddd, #fafafa);
+    background: -moz-linear-gradient(center bottom, #dddddd 0%, #fafafa 100%);
+    background: -o-linear-gradient(bottom, #dddddd, #fafafa);
+    filter: progid:dximagetransform.microsoft.gradient(startColorStr='#4d5b76', EndColorStr='#6c7a95');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#fafafa',EndColorStr='#dddddd')";
+    display: block;
+    padding-left: 1em;
+    border-top: 1px solid #fff;
+    outline: none;
+}
+.block-heading {
+    border-bottom: 1px solid #a6a6a6;
+    border-left: none;
+    color: #505050;
+    display: block;
+    margin-bottom: 0px;
+    text-shadow: none;
+    text-transform: none;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 23px;
+}
+.row-fluid {min-width: 890px;}
+.row-fluid input {margin-bottom: 0 ;}
+.block-body {
+    margin: 1em;
+    min-height: .25em;
+}
+#tradeIdcText {margin-bottom: 0;}
+.block-body h1, .block-body h2, .block-body h3, .block-body h4, .block-body h5, .block-body h6, .block-body table {
+    margin-top: 12px;
+}
+.table-bordered th,
+.table-bordered td{
+    padding: 0;
+    vertical-align: middle;
+    height: 24px;
+    text-align: center;
+}
+#saveBrokerBtn {margin:20px 0 0 40px;}
+
+.hint,.tipsError {
+    display: none;
+    margin-left: 10px;
+    color:#ff0000;
+    position: relative;
+    top:-3px;
+}
+/*时间查询按钮*/
+.btn{
+    font-size: 12px;
+    border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25);
+    background-color: #f5f5f5;
+}
+.btn:hover,
+.btn:active,
+.btn.active,
+.btn.disabled,
+.btn[disabled] {
+    color: #333333;
+    background-color: #e6e6e6;
+    *background-color: #d9d9d9;
+}
+/**/
+.form-control {display: inline-block!important;width:185px!important;}
+/*倒计时刷新*/
+#searchDiv .countdown {
+    position: relative;
+    top:0;
+    left:0;
+    display: inline-block;
+    margin-right: 15px;
+    float:left;
+    color: #f00;
+    border: 1px solid #f00;
+    background-color: #ffeeee;
+    padding: 0 10px;
+    vertical-align: middle;
+    line-height: 28px;
+}
+/*#searchDiv .countdown.load{background: url("/media/modules/images/loading.gif") no-repeat scroll 3px 3px #ffeeee;padding-left: 26px;}*/
+#searchDiv .countdown .load {
+    background: url("/images/loading.gif") no-repeat scroll 0 0 #ffeeee;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: -2px -3px 0 0;
+}
+#searchDiv .countdown em {
+    font-style: normal;
+}
+.form-control {height:30.65px;}
+/*添加经纪公司页面css调整*/
+/*#dayBegin,#dayEnd,#nightStartDate,#nightEndDate {background-color: #fff;cursor:pointer;}*/
+/*#dayBegin,#nightStartDate {margin-right: 5px;}*/
+/*#dayEnd ,#nightEndDate{margin-left: 5px;}*/
+/*select2调整*/
+#searchDiv .select2-container {position: relative;top:4px;}

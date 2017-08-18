@@ -1,0 +1,148 @@
+package ${package_name}.service.impl;
+
+import com.pbs.ams.common.annotation.BaseService;
+import com.pbs.ams.common.base.BaseServiceImpl;
+import ${package_name}.mappers.com.ruixin:pbs-ams-management:war:1.0-SNAPSHOTMapper;
+import ${package_name}.model.com.ruixin:pbs-ams-management:war:1.0-SNAPSHOT;
+import ${package_name}.model.com.ruixin:pbs-ams-management:war:1.0-SNAPSHOTExample;
+import ${package_name}.service.com.ruixin:pbs-ams-management:war:1.0-SNAPSHOTService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+/**
+* com.ruixin:pbs-ams-management:war:1.0-SNAPSHOTService实现
+* Created by ams on ${ctime}.
+*/
+@Service
+@Transactional(rollbackFor = Exception.class)
+@BaseService
+public class com.ruixin:pbs-ams-management:war:1.0-SNAPSHOTServiceImpl extends BaseServiceImpl<com.ruixin:pbs-ams-management:war:1.0-SNAPSHOTMapper, com.ruixin:pbs-ams-management:war:1.0-SNAPSHOT, com.ruixin:pbs-ams-management:war:1.0-SNAPSHOTExample> implements com.ruixin:pbs-ams-management:war:1.0-SNAPSHOTService {
+
+    private static Logger _log = LoggerFactory.getLogger(com.ruixin:pbs-ams-management:war:1.0-SNAPSHOTServiceImpl.class);
+
+    @Autowired
+    private com.ruixin:pbs-ams-management:war:1.0-SNAPSHOTMapper ${mapper}Mapper;
+
+
+##        @Override
+##        public int deleteByPrimaryKey(Long id) {
+##            try {
+##                DynamicDataSource.setDataSource(DataSourceEnum.MASTER.getName());
+##                return ${mapper}Mapper.deleteByPrimaryKey(id);
+##            } catch (Exception e) {
+##                e.printStackTrace();
+##            }
+##            DynamicDataSource.clearDataSource();
+##            return 0;
+##        }
+##
+##
+##        @Override
+##        public int insert(com.ruixin:pbs-ams-management:war:1.0-SNAPSHOT ${mapper}) {
+##            try {
+##                DynamicDataSource.setDataSource(DataSourceEnum.MASTER.getName());
+##                return ${mapper}Mapper.insert(${mapper});
+##            } catch (Exception e) {
+##                e.printStackTrace();
+##            }
+##            DynamicDataSource.clearDataSource();
+##            return 0;
+##        }
+##
+##        @Override
+##        public int insertSelective(com.ruixin:pbs-ams-management:war:1.0-SNAPSHOT ${mapper}) {
+##            try {
+##                DynamicDataSource.setDataSource(DataSourceEnum.MASTER.getName());
+##                return ${mapper}Mapper.insertSelective(${mapper});
+##            } catch (Exception e) {
+##                e.printStackTrace();
+##            }
+##            DynamicDataSource.clearDataSource();
+##            return 0;
+##        }
+##
+##
+##        @Override
+##        public com.ruixin:pbs-ams-management:war:1.0-SNAPSHOT selectByPrimaryKey(Long id) {
+##            try {
+##                DynamicDataSource.setDataSource(DataSourceEnum.MASTER.getName());
+##                return ${mapper}Mapper.selectByPrimaryKey(id);
+##            } catch (Exception e) {
+##                e.printStackTrace();
+##            }
+##            DynamicDataSource.clearDataSource();
+##            return null;
+##        }
+##
+##
+##        @Override
+##        public int updateByPrimaryKeySelective(com.ruixin:pbs-ams-management:war:1.0-SNAPSHOT ${mapper}) {
+##            try {
+##                DynamicDataSource.setDataSource(DataSourceEnum.MASTER.getName());
+##                return ${mapper}Mapper.updateByPrimaryKeySelective(${mapper});
+##            } catch (Exception e) {
+##                e.printStackTrace();
+##            }
+##            DynamicDataSource.clearDataSource();
+##            return 0;
+##        }
+##
+##
+##        @Override
+##        public int updateByPrimaryKey(com.ruixin:pbs-ams-management:war:1.0-SNAPSHOT ${mapper}) {
+##            try {
+##                DynamicDataSource.setDataSource(DataSourceEnum.MASTER.getName());
+##                return ${mapper}Mapper.updateByPrimaryKey(${mapper});
+##            } catch (Exception e) {
+##                e.printStackTrace();
+##            }
+##            DynamicDataSource.clearDataSource();
+##            return 0;
+##        }
+##
+##        @Override
+##        public int deleteByPrimaryKeys(String ids) {
+##            try {
+##                if (StringUtils.isBlank(ids)) {
+##                    return 0;
+##                }
+##                DynamicDataSource.setDataSource(DataSourceEnum.MASTER.getName());
+##                String[] idArray = ids.split("-");
+##                int count = 0;
+##                for (String idStr : idArray) {
+##                    if (StringUtils.isBlank(idStr)) {
+##                        continue;
+##                    }
+##                    Long id = Long.parseLong(idStr);
+##                    //count += amsStockAccountMapper.deleteByPrimaryKey(id);
+##                }
+##                return count;
+##                } catch (Exception e) {
+##                    e.printStackTrace();
+##                }
+##                DynamicDataSource.clearDataSource();
+##                return 0;
+##        }
+##
+##
+##        /**
+##        * MANDATORY:该方法只能在一个已存在的事务中执行.
+##        * @return
+##        */
+##        @Override
+##        @Transactional(propagation = Propagation.MANDATORY)
+##        public int insertTocom.ruixin:pbs-ams-management:war:1.0-SNAPSHOTSnaps() {
+##        try {
+##            DynamicDataSource.setDataSource(DataSourceEnum.MASTER.getName());
+##            //return ${mapper}Mapper.insertTocom.ruixin:pbs-ams-management:war:1.0-SNAPSHOTSnaps();
+##            } catch (Exception e) {
+##                e.printStackTrace();
+##            }
+##            DynamicDataSource.clearDataSource();
+##            return 0;
+##        }
+
+}

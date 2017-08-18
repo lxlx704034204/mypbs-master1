@@ -1,0 +1,28 @@
+package ${package_name}.service;
+
+import com.pbs.ams.common.base.BaseService;
+import ${package_name}.model.com.ruixin:pbs-ams-management:war:1.0-SNAPSHOT;
+import ${package_name}.model.com.ruixin:pbs-ams-management:war:1.0-SNAPSHOTExample;
+
+/**
+* com.ruixin:pbs-ams-management:war:1.0-SNAPSHOTService接口
+* Created by ams on ${ctime}.
+*/
+public interface com.ruixin:pbs-ams-management:war:1.0-SNAPSHOTService extends BaseService<com.ruixin:pbs-ams-management:war:1.0-SNAPSHOT, com.ruixin:pbs-ams-management:war:1.0-SNAPSHOTExample> {
+
+##    int deleteByPrimaryKey(Long id);
+##
+##    int deleteByPrimaryKeys(String ids);
+##
+##    int insert(com.ruixin:pbs-ams-management:war:1.0-SNAPSHOT record);
+##
+##    int insertSelective(com.ruixin:pbs-ams-management:war:1.0-SNAPSHOT record);
+##
+##    com.ruixin:pbs-ams-management:war:1.0-SNAPSHOT selectByPrimaryKey(Long id);
+##
+##    int updateByPrimaryKey(com.ruixin:pbs-ams-management:war:1.0-SNAPSHOT record);
+##
+##    int updateByPrimaryKeySelective(com.ruixin:pbs-ams-management:war:1.0-SNAPSHOT record);
+##
+##    int insertTocom.ruixin:pbs-ams-management:war:1.0-SNAPSHOTSnaps();
+}

@@ -1,0 +1,29 @@
+package ${package_name}.service;
+## ${xxx} 中的value定义在了MybatisGeneratorUtil.java中的 context.put("package_name", package_name)...
+import com.pbs.ams.common.base.BaseServiceMock;
+import ${package_name}.mappers.${model}Mapper;
+import ${package_name}.model.${model};
+import ${package_name}.model.${model}Example;
+
+/**
+* ${model}Service接口
+* Created by ams on ${ctime}.
+*/
+public class ${model}ServiceMock extends BaseServiceMock<${model}Mapper, ${model}, ${model}Example> implements ${model}Service {
+
+##    int deleteByPrimaryKey(Long id);
+##
+##    int deleteByPrimaryKeys(String ids);
+##
+##    int insert(${model} record);
+##
+##    int insertSelective(${model} record);
+##
+##    ${model} selectByPrimaryKey(Long id);
+##
+##    int updateByPrimaryKey(${model} record);
+##
+##    int updateByPrimaryKeySelective(${model} record);
+##
+##    int insertTo${model}Snaps();
+}

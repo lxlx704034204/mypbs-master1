@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/tx
+       http://www.springframework.org/schema/tx/spring-tx.xsd
+       http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context-3.1.xsd
+http://www.springframework.org/schema/mvc
+http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd
+http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+
+    <!-- Spring容器初始化完成监听器 -->
+    <bean class="com.pbs.ams.common.listener.ApplicationContextListener" lazy-init="false"></bean>
+    <!-- 扫描controller -->
+    <context:component-scan base-package="**.*controller"/>
+    <bean id="swagger2Config"
+          class="springfox.documentation.swagger2.configuration.Swagger2DocumentationConfiguration"/>
+
+    <!-- 启动aop注解基于类的代理（这时需要cglib库），如果proxy-target-class属值被设置为false或者这个属性被省略，那么标准的JDK 基于接口的代理将起作用 -->
+    <aop:config proxy-target-class="true"/>
+    <!-- 返回ResponseBody响应类型 -->
+    <mvc:annotation-driven>
+        <mvc:message-converters>
+            <bean class="org.springframework.http.converter.StringHttpMessageConverter">
+                <property name="supportedMediaTypes">
+                    <list>
+                        <value>text/html;charset=UTF-8</value>
+                    </list>
+                </property>
+            </bean>
+        </mvc:message-converters>
+    </mvc:annotation-driven>
+
+
+    <!-- 启动注解驱动的Spring MVC功能，注册请求url和注解POJO类方法的映射-->
+    <mvc:annotation-driven/>
+
+    <mvc:default-servlet-handler/>
+
+    <!-- 启动包扫描功能，以便注册带有@Controller、@service、@repository、@Component等注解的类成为spring的bean -->
+    <context:component-scan base-package="com.pbs.ams.web" />
+
+
+<!--
+    &lt;!&ndash; 拦截器 &ndash;&gt;
+    <mvc:interceptors>
+        &lt;!&ndash; 获取登录信息 &ndash;&gt;
+        <mvc:interceptor>
+            <mvc:mapping path="/manage/**"/>
+            <bean class="com.pbs.ams.web.interceptor.UpmsInterceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
+-->
+
+    <!-- 根目录'/'对应页面 -->
+    <mvc:view-controller path="/" view-name="/index.jsp"/>
+
+    <!-- 对模型视图名称的解析，在请求时模型视图名称添加前后缀 -->
+    <!-- Jsp视图 -->
+    <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="order" value="1"/>
+        <property name="prefix" value="/WEB-INF/jsp/"/>
+        <property name="suffix" value=""/>
+        <property name="contentType" value="text/html; charset=utf-8"/>
+        <property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>
+    </bean>
+
+
+
+    <aop:aspectj-autoproxy proxy-target-class="true"/>
+
+    <!-- 启动时初始化Spring上下文环境工具类 -->
+    <bean id="springContextUtil" class="com.pbs.ams.common.util.SpringContextUtil"/>
+
+    <!--&lt;!&ndash; 日志记录AOP实现 &ndash;&gt;-->
+    <bean class="com.pbs.ams.client.interceptor.LogToDataBaseAspect"/>
+
+    <!-- 对静态资源文件的访问  方案二 （二选一）-->
+    <mvc:resources mapping="/resources/**" location="/resources/" cache-period="31556926"/>
+
+    <!-- 读取配置文件 -->
+    <bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="locations">
+            <list>
+                <value>classpath:profiles/*.properties</value>
+            </list>
+        </property>
+    </bean>
+
+    <!-- transaction support-->
+    <!-- PlatformTransactionMnager -->
+    <bean id="txManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource" />
+    </bean>
+
+    <!-- enable transaction annotation support -->
+    <tx:annotation-driven transaction-manager="txManager" />
+
+    <tx:advice id="transactionAdvice" transaction-manager="txManager">
+        <tx:attributes>
+            <!-- 让所有的方法都加入事务管理 -->
+            <tx:method name="*" propagation="REQUIRED" read-only="true" />
+            <!--涉及修改,无法只读-->
+            <tx:method name="delete*" propagation="REQUIRED" />
+            <tx:method name="insert*" propagation="REQUIRED" />
+            <tx:method name="update*" propagation="REQUIRED" />
+            <!--查询设为只读提高效率-->
+            <tx:method name="find*" read-only="true" />
+            <tx:method name="get*" read-only="true" />
+            <tx:method name="select*" read-only="true" />
+        </tx:attributes>
+    </tx:advice>
+
+    <aop:config>
+        <!-- 第一个"*"代表所有类, 第二个"*"代表所有方法, ".."代表任意参数 -->
+        <!-- 设置pointCut表示哪些方法要加入事务处理 -->
+        <!-- 以下的事务是声明在DAO中，但是通常都会在Service来处理多个业务对象逻辑的关系，注入删除，更新等，
+            此时如果在执行了一个步骤之后抛出异常就会导致数据不完整，所以事务不应该在DAO层处理，而应该在service.-->
+        <aop:pointcut id="pointCut" expression="execution(* com.pbs.ams.web.service.*.*(..))" />
+
+        <!-- 把事务控制在service层 -->
+        <aop:advisor pointcut-ref="pointCut" advice-ref="transactionAdvice" />
+    </aop:config>
+
+</beans>

@@ -1,0 +1,6 @@
+2017-08-15 14:19:33,750 - ResourceManager : unable to find resource 'F:/999/mypbs-master/target/classes/template/generatorConfig.vm' in any resource loader.
+2017-08-15 14:26:12,625 - ResourceManager : unable to find resource 'F:/999/mypbs-mastertemplate/generatorConfig.vm' in any resource loader.
+2017-08-15 14:28:21,732 - ResourceManager : unable to find resource 'F:/999/mypbs-mastertemplate/generatorConfig.vm' in any resource loader.
+2017-08-15 14:40:54,020 - ResourceManager : unable to find resource 'F:/999/mypbs-master/src/main/resources/generatorConfig.xml' in any resource loader.
+2017-08-15 14:43:53,139 - ResourceManager : unable to find resource 'F:/999/mypbs-master/target/classes/template/generatorConfig.vm' in any resource loader.
+2017-08-15 15:57:20,088 - ResourceManager : unable to find resource 'generatorConfig.vm' in any resource loader.

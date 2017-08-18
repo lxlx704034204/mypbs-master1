@@ -1,0 +1,604 @@
+2017-08-17 09:34:37,105 耗时：0 [日志来自：t.support.DefaultTestContextBootstrapper 日志类型: INFO  日志内容：Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]]
+2017-08-17 09:34:37,157 耗时：52 [日志来自：t.support.DefaultTestContextBootstrapper 日志类型: INFO  日志内容：Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@371d1794, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@56f711d0, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@76b29b4a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@47f15427, org.springframework.test.context.transaction.TransactionalTestExecutionListener@34cbf157, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3951a1d5]]
+2017-08-17 09:34:37,448 耗时：343 [日志来自：factory.xml.XmlBeanDefinitionReader      日志类型: INFO  日志内容：Loading XML bean definitions from class path resource [applicationContext-db.xml]]
+2017-08-17 09:35:19,303 耗时：42198 [日志来自：ontext.support.GenericApplicationContext 日志类型: INFO  日志内容：Refreshing org.springframework.context.support.GenericApplicationContext@3f4fceb7: startup date [Thu Aug 17 09:35:19 CST 2017]; root of context hierarchy]
+2017-08-17 09:35:19,790 耗时：42685 [日志来自：druid.pool.DruidAbstractDataSource       日志类型: ERROR 日志内容：maxIdle is deprecated]
+2017-08-17 09:35:21,173 耗时：44068 [日志来自：druid.pool.DruidDataSource               日志类型: INFO  日志内容：{dataSource-1} inited]
+2017-08-17 09:35:21,617 耗时：44512 [日志来自：ontext.support.GenericApplicationContext 日志类型: INFO  日志内容：Closing org.springframework.context.support.GenericApplicationContext@3f4fceb7: startup date [Thu Aug 17 09:35:19 CST 2017]; root of context hierarchy]
+2017-08-17 09:35:21,624 耗时：44519 [日志来自：druid.pool.DruidDataSource               日志类型: INFO  日志内容：{dataSource-1} closed]
+2017-08-17 09:37:07,533 耗时：0 [日志来自：t.support.DefaultTestContextBootstrapper 日志类型: INFO  日志内容：Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]]
+2017-08-17 09:37:07,551 耗时：18 [日志来自：t.support.DefaultTestContextBootstrapper 日志类型: INFO  日志内容：Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@b596170, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@190c05e2, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@64564546, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5bde2a20, org.springframework.test.context.transaction.TransactionalTestExecutionListener@569fc9fe, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@14866f20]]
+2017-08-17 09:37:07,622 耗时：89 [日志来自：factory.xml.XmlBeanDefinitionReader      日志类型: INFO  日志内容：Loading XML bean definitions from class path resource [applicationContext-db.xml]]
+2017-08-17 09:37:38,826 耗时：31293 [日志来自：ontext.support.GenericApplicationContext 日志类型: INFO  日志内容：Refreshing org.springframework.context.support.GenericApplicationContext@58b37561: startup date [Thu Aug 17 09:37:38 CST 2017]; root of context hierarchy]
+2017-08-17 09:37:39,270 耗时：31737 [日志来自：druid.pool.DruidAbstractDataSource       日志类型: ERROR 日志内容：maxIdle is deprecated]
+2017-08-17 09:37:40,548 耗时：33015 [日志来自：druid.pool.DruidDataSource               日志类型: INFO  日志内容：{dataSource-1} inited]
+2017-08-17 09:37:40,718 耗时：33185 [日志来自：ontext.support.GenericApplicationContext 日志类型: INFO  日志内容：Closing org.springframework.context.support.GenericApplicationContext@58b37561: startup date [Thu Aug 17 09:37:38 CST 2017]; root of context hierarchy]
+2017-08-17 09:37:40,724 耗时：33191 [日志来自：druid.pool.DruidDataSource               日志类型: INFO  日志内容：{dataSource-1} closed]
+2017-08-17 10:16:05,000 耗时：0 [日志来自：t.support.DefaultTestContextBootstrapper 日志类型: INFO  日志内容：Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]]
+2017-08-17 10:16:05,021 耗时：21 [日志来自：t.support.DefaultTestContextBootstrapper 日志类型: INFO  日志内容：Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@14fa6144, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4207c21e, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@b596170, org.springframework.test.context.support.DirtiesContextTestExecutionListener@190c05e2, org.springframework.test.context.transaction.TransactionalTestExecutionListener@64564546, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5bde2a20]]
+2017-08-17 10:16:05,099 耗时：99 [日志来自：factory.xml.XmlBeanDefinitionReader      日志类型: INFO  日志内容：Loading XML bean definitions from class path resource [applicationContext-db.xml]]
+2017-08-17 10:16:47,280 耗时：42280 [日志来自：ontext.support.GenericApplicationContext 日志类型: INFO  日志内容：Refreshing org.springframework.context.support.GenericApplicationContext@38882d9a: startup date [Thu Aug 17 10:16:47 CST 2017]; root of context hierarchy]
+2017-08-17 10:16:47,720 耗时：42720 [日志来自：druid.pool.DruidAbstractDataSource       日志类型: ERROR 日志内容：maxIdle is deprecated]
+2017-08-17 10:16:48,105 耗时：43105 [日志来自：sf.ehcache.DiskStorePathManager          日志类型: WARN  日志内容：diskStorePath 'C:\Users\lx\AppData\Local\Temp\pbs-ams-management\ehcache' is already used by an existing CacheManager either in the same VM or in a different process.
+The diskStore path for this CacheManager will be set to C:\Users\lx\AppData\Local\Temp\pbs-ams-management\ehcache\ehcache_auto_created4352568358479925609diskstore.
+To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.]
+2017-08-17 10:16:48,996 耗时：43996 [日志来自：druid.pool.DruidDataSource               日志类型: INFO  日志内容：{dataSource-1} inited]
+2017-08-17 10:16:49,204 耗时：44204 [日志来自：ontext.support.GenericApplicationContext 日志类型: INFO  日志内容：Closing org.springframework.context.support.GenericApplicationContext@38882d9a: startup date [Thu Aug 17 10:16:47 CST 2017]; root of context hierarchy]
+2017-08-17 10:16:49,212 耗时：44212 [日志来自：druid.pool.DruidDataSource               日志类型: INFO  日志内容：{dataSource-1} closed]
+2017-08-17 10:41:54,337 耗时：0 [日志来自：t.support.DefaultTestContextBootstrapper 日志类型: INFO  日志内容：Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]]
+2017-08-17 10:41:54,353 耗时：16 [日志来自：t.support.DefaultTestContextBootstrapper 日志类型: INFO  日志内容：Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@43d7ecc8, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@14fa6144, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4207c21e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@b596170, org.springframework.test.context.transaction.TransactionalTestExecutionListener@190c05e2, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@64564546]]
+2017-08-17 10:41:54,436 耗时：99 [日志来自：factory.xml.XmlBeanDefinitionReader      日志类型: INFO  日志内容：Loading XML bean definitions from class path resource [applicationContext-db.xml]]
+2017-08-17 10:42:28,986 耗时：34649 [日志来自：ontext.support.GenericApplicationContext 日志类型: INFO  日志内容：Refreshing org.springframework.context.support.GenericApplicationContext@439fed1d: startup date [Thu Aug 17 10:42:28 CST 2017]; root of context hierarchy]
+2017-08-17 10:42:29,433 耗时：35096 [日志来自：druid.pool.DruidAbstractDataSource       日志类型: ERROR 日志内容：maxIdle is deprecated]
+2017-08-17 10:42:29,844 耗时：35507 [日志来自：sf.ehcache.DiskStorePathManager          日志类型: WARN  日志内容：diskStorePath 'C:\Users\lx\AppData\Local\Temp\pbs-ams-management\ehcache' is already used by an existing CacheManager either in the same VM or in a different process.
+The diskStore path for this CacheManager will be set to C:\Users\lx\AppData\Local\Temp\pbs-ams-management\ehcache\ehcache_auto_created584833033153585617diskstore.
+To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.]
+2017-08-17 10:42:30,744 耗时：36407 [日志来自：druid.pool.DruidDataSource               日志类型: INFO  日志内容：{dataSource-1} inited]
+2017-08-17 10:42:30,916 耗时：36579 [日志来自：ontext.support.GenericApplicationContext 日志类型: INFO  日志内容：Closing org.springframework.context.support.GenericApplicationContext@439fed1d: startup date [Thu Aug 17 10:42:28 CST 2017]; root of context hierarchy]
+2017-08-17 10:42:30,923 耗时：36586 [日志来自：druid.pool.DruidDataSource               日志类型: INFO  日志内容：{dataSource-1} closed]
+2017-08-17 10:44:50,869 耗时：0 [日志来自：t.support.DefaultTestContextBootstrapper 日志类型: INFO  日志内容：Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]]
+2017-08-17 10:44:50,885 耗时：16 [日志来自：t.support.DefaultTestContextBootstrapper 日志类型: INFO  日志内容：Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4207c21e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@b596170, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@190c05e2, org.springframework.test.context.support.DirtiesContextTestExecutionListener@64564546, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5bde2a20, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@569fc9fe]]
+2017-08-17 10:44:50,956 耗时：87 [日志来自：factory.xml.XmlBeanDefinitionReader      日志类型: INFO  日志内容：Loading XML bean definitions from class path resource [applicationContext-db.xml]]
+2017-08-17 10:45:25,778 耗时：34909 [日志来自：ontext.support.GenericApplicationContext 日志类型: INFO  日志内容：Refreshing org.springframework.context.support.GenericApplicationContext@7469f674: startup date [Thu Aug 17 10:45:25 CST 2017]; root of context hierarchy]
+2017-08-17 10:45:26,207 耗时：35338 [日志来自：druid.pool.DruidAbstractDataSource       日志类型: ERROR 日志内容：maxIdle is deprecated]
+2017-08-17 10:45:26,581 耗时：35712 [日志来自：sf.ehcache.DiskStorePathManager          日志类型: WARN  日志内容：diskStorePath 'C:\Users\lx\AppData\Local\Temp\pbs-ams-management\ehcache' is already used by an existing CacheManager either in the same VM or in a different process.
+The diskStore path for this CacheManager will be set to C:\Users\lx\AppData\Local\Temp\pbs-ams-management\ehcache\ehcache_auto_created3850222666465886332diskstore.
+To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.]
+2017-08-17 10:45:27,530 耗时：36661 [日志来自：druid.pool.DruidDataSource               日志类型: INFO  日志内容：{dataSource-1} inited]
+2017-08-17 10:45:27,693 耗时：36824 [日志来自：ontext.support.GenericApplicationContext 日志类型: INFO  日志内容：Closing org.springframework.context.support.GenericApplicationContext@7469f674: startup date [Thu Aug 17 10:45:25 CST 2017]; root of context hierarchy]
+2017-08-17 10:45:27,700 耗时：36831 [日志来自：druid.pool.DruidDataSource               日志类型: INFO  日志内容：{dataSource-1} closed]
+2017-08-17 10:53:22,621 耗时：0 [日志来自：t.support.DefaultTestContextBootstrapper 日志类型: INFO  日志内容：Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]]
+2017-08-17 10:53:22,638 耗时：17 [日志来自：t.support.DefaultTestContextBootstrapper 日志类型: INFO  日志内容：Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@14fa6144, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4207c21e, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@b596170, org.springframework.test.context.support.DirtiesContextTestExecutionListener@190c05e2, org.springframework.test.context.transaction.TransactionalTestExecutionListener@64564546, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5bde2a20]]
+2017-08-17 10:53:22,740 耗时：119 [日志来自：factory.xml.XmlBeanDefinitionReader      日志类型: INFO  日志内容：Loading XML bean definitions from class path resource [applicationContext-db.xml]]
+2017-08-17 10:53:54,356 耗时：31735 [日志来自：ontext.support.GenericApplicationContext 日志类型: INFO  日志内容：Refreshing org.springframework.context.support.GenericApplicationContext@38882d9a: startup date [Thu Aug 17 10:53:54 CST 2017]; root of context hierarchy]
+2017-08-17 10:53:54,829 耗时：32208 [日志来自：druid.pool.DruidAbstractDataSource       日志类型: ERROR 日志内容：maxIdle is deprecated]
+2017-08-17 10:53:55,208 耗时：32587 [日志来自：sf.ehcache.DiskStorePathManager          日志类型: WARN  日志内容：diskStorePath 'C:\Users\lx\AppData\Local\Temp\pbs-ams-management\ehcache' is already used by an existing CacheManager either in the same VM or in a different process.
+The diskStore path for this CacheManager will be set to C:\Users\lx\AppData\Local\Temp\pbs-ams-management\ehcache\ehcache_auto_created2679193869594817550diskstore.
+To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.]
+2017-08-17 10:53:55,977 耗时：33356 [日志来自：mmon.listener.ApplicationContextListener 日志类型: ERROR 日志内容：初始化BaseService的initMapper方法异常]
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at com.pbs.ams.common.listener.ApplicationContextListener.onApplicationEvent(ApplicationContextListener.java:32)
+	at com.pbs.ams.common.listener.ApplicationContextListener.onApplicationEvent(ApplicationContextListener.java:17)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:167)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:383)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:337)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:882)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:108)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:251)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:51)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: java.lang.NullPointerException
+	at com.pbs.ams.common.util.SpringContextUtil.getBean(SpringContextUtil.java:52)
+	at com.pbs.ams.common.base.BaseServiceImpl.initMapper(BaseServiceImpl.java:435)
+	... 42 more
+2017-08-17 10:53:55,985 耗时：33364 [日志来自：mmon.listener.ApplicationContextListener 日志类型: ERROR 日志内容：初始化BaseService的initMapper方法异常]
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at com.pbs.ams.common.listener.ApplicationContextListener.onApplicationEvent(ApplicationContextListener.java:32)
+	at com.pbs.ams.common.listener.ApplicationContextListener.onApplicationEvent(ApplicationContextListener.java:17)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:167)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:383)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:337)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:882)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:108)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:251)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:51)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: java.lang.NullPointerException
+	at com.pbs.ams.common.util.SpringContextUtil.getBean(SpringContextUtil.java:52)
+	at com.pbs.ams.common.base.BaseServiceImpl.initMapper(BaseServiceImpl.java:435)
+	... 42 more
+2017-08-17 10:53:55,991 耗时：33370 [日志来自：mmon.listener.ApplicationContextListener 日志类型: ERROR 日志内容：初始化BaseService的initMapper方法异常]
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at com.pbs.ams.common.listener.ApplicationContextListener.onApplicationEvent(ApplicationContextListener.java:32)
+	at com.pbs.ams.common.listener.ApplicationContextListener.onApplicationEvent(ApplicationContextListener.java:17)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:167)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:383)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:337)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:882)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:108)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:251)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:51)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: java.lang.NullPointerException
+	at com.pbs.ams.common.util.SpringContextUtil.getBean(SpringContextUtil.java:52)
+	at com.pbs.ams.common.base.BaseServiceImpl.initMapper(BaseServiceImpl.java:435)
+	... 42 more
+2017-08-17 10:53:55,997 耗时：33376 [日志来自：mmon.listener.ApplicationContextListener 日志类型: ERROR 日志内容：初始化BaseService的initMapper方法异常]
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at com.pbs.ams.common.listener.ApplicationContextListener.onApplicationEvent(ApplicationContextListener.java:32)
+	at com.pbs.ams.common.listener.ApplicationContextListener.onApplicationEvent(ApplicationContextListener.java:17)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:167)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:383)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:337)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:882)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:108)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:251)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:51)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: java.lang.NullPointerException
+	at com.pbs.ams.common.util.SpringContextUtil.getBean(SpringContextUtil.java:52)
+	at com.pbs.ams.common.base.BaseServiceImpl.initMapper(BaseServiceImpl.java:435)
+	... 42 more
+2017-08-17 10:53:56,003 耗时：33382 [日志来自：mmon.listener.ApplicationContextListener 日志类型: ERROR 日志内容：初始化BaseService的initMapper方法异常]
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at com.pbs.ams.common.listener.ApplicationContextListener.onApplicationEvent(ApplicationContextListener.java:32)
+	at com.pbs.ams.common.listener.ApplicationContextListener.onApplicationEvent(ApplicationContextListener.java:17)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:167)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:383)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:337)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:882)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:108)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:251)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:51)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: java.lang.NullPointerException
+	at com.pbs.ams.common.util.SpringContextUtil.getBean(SpringContextUtil.java:52)
+	at com.pbs.ams.common.base.BaseServiceImpl.initMapper(BaseServiceImpl.java:435)
+	... 42 more
+2017-08-17 10:53:56,011 耗时：33390 [日志来自：mmon.listener.ApplicationContextListener 日志类型: ERROR 日志内容：初始化BaseService的initMapper方法异常]
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at com.pbs.ams.common.listener.ApplicationContextListener.onApplicationEvent(ApplicationContextListener.java:32)
+	at com.pbs.ams.common.listener.ApplicationContextListener.onApplicationEvent(ApplicationContextListener.java:17)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:167)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:383)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:337)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:882)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:108)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:251)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:51)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: java.lang.NullPointerException
+	at com.pbs.ams.common.util.SpringContextUtil.getBean(SpringContextUtil.java:52)
+	at com.pbs.ams.common.base.BaseServiceImpl.initMapper(BaseServiceImpl.java:435)
+	... 42 more
+2017-08-17 10:53:56,018 耗时：33397 [日志来自：mmon.listener.ApplicationContextListener 日志类型: ERROR 日志内容：初始化BaseService的initMapper方法异常]
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at com.pbs.ams.common.listener.ApplicationContextListener.onApplicationEvent(ApplicationContextListener.java:32)
+	at com.pbs.ams.common.listener.ApplicationContextListener.onApplicationEvent(ApplicationContextListener.java:17)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:167)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:383)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:337)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:882)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:108)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:251)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:51)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: java.lang.NullPointerException
+	at com.pbs.ams.common.util.SpringContextUtil.getBean(SpringContextUtil.java:52)
+	at com.pbs.ams.common.base.BaseServiceImpl.initMapper(BaseServiceImpl.java:435)
+	... 42 more
+2017-08-17 10:53:56,025 耗时：33404 [日志来自：mmon.listener.ApplicationContextListener 日志类型: ERROR 日志内容：初始化BaseService的initMapper方法异常]
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at com.pbs.ams.common.listener.ApplicationContextListener.onApplicationEvent(ApplicationContextListener.java:32)
+	at com.pbs.ams.common.listener.ApplicationContextListener.onApplicationEvent(ApplicationContextListener.java:17)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:167)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:383)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:337)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:882)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:108)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:251)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:51)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: java.lang.NullPointerException
+	at com.pbs.ams.common.util.SpringContextUtil.getBean(SpringContextUtil.java:52)
+	at com.pbs.ams.common.base.BaseServiceImpl.initMapper(BaseServiceImpl.java:435)
+	... 42 more
+2017-08-17 10:53:56,034 耗时：33413 [日志来自：mmon.listener.ApplicationContextListener 日志类型: ERROR 日志内容：初始化BaseService的initMapper方法异常]
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at com.pbs.ams.common.listener.ApplicationContextListener.onApplicationEvent(ApplicationContextListener.java:32)
+	at com.pbs.ams.common.listener.ApplicationContextListener.onApplicationEvent(ApplicationContextListener.java:17)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:167)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:383)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:337)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:882)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:108)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:251)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:51)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: java.lang.NullPointerException
+	at com.pbs.ams.common.util.SpringContextUtil.getBean(SpringContextUtil.java:52)
+	at com.pbs.ams.common.base.BaseServiceImpl.initMapper(BaseServiceImpl.java:435)
+	... 42 more
+2017-08-17 10:53:56,045 耗时：33424 [日志来自：mmon.listener.ApplicationContextListener 日志类型: ERROR 日志内容：初始化BaseService的initMapper方法异常]
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at com.pbs.ams.common.listener.ApplicationContextListener.onApplicationEvent(ApplicationContextListener.java:32)
+	at com.pbs.ams.common.listener.ApplicationContextListener.onApplicationEvent(ApplicationContextListener.java:17)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:167)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:383)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:337)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:882)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:108)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:251)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:51)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: java.lang.NullPointerException
+	at com.pbs.ams.common.util.SpringContextUtil.getBean(SpringContextUtil.java:52)
+	at com.pbs.ams.common.base.BaseServiceImpl.initMapper(BaseServiceImpl.java:435)
+	... 42 more
+2017-08-17 10:53:56,053 耗时：33432 [日志来自：mmon.listener.ApplicationContextListener 日志类型: ERROR 日志内容：初始化BaseService的initMapper方法异常]
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at com.pbs.ams.common.listener.ApplicationContextListener.onApplicationEvent(ApplicationContextListener.java:32)
+	at com.pbs.ams.common.listener.ApplicationContextListener.onApplicationEvent(ApplicationContextListener.java:17)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:167)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:383)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:337)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:882)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:108)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:251)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:51)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: java.lang.NullPointerException
+	at com.pbs.ams.common.util.SpringContextUtil.getBean(SpringContextUtil.java:52)
+	at com.pbs.ams.common.base.BaseServiceImpl.initMapper(BaseServiceImpl.java:435)
+	... 42 more
+2017-08-17 10:53:56,079 耗时：33458 [日志来自：ontext.support.GenericApplicationContext 日志类型: INFO  日志内容：Closing org.springframework.context.support.GenericApplicationContext@38882d9a: startup date [Thu Aug 17 10:53:54 CST 2017]; root of context hierarchy]
+2017-08-17 11:23:59,486 耗时：0 [日志来自：t.support.DefaultTestContextBootstrapper 日志类型: INFO  日志内容：Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]]
+2017-08-17 11:23:59,539 耗时：53 [日志来自：t.support.DefaultTestContextBootstrapper 日志类型: INFO  日志内容：Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@43d7ecc8, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@14fa6144, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4207c21e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@b596170, org.springframework.test.context.transaction.TransactionalTestExecutionListener@190c05e2, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@64564546]]
+2017-08-17 11:23:59,608 耗时：122 [日志来自：factory.xml.XmlBeanDefinitionReader      日志类型: INFO  日志内容：Loading XML bean definitions from class path resource [applicationContext-db.xml]]
+2017-08-17 11:24:35,698 耗时：36212 [日志来自：ontext.support.GenericApplicationContext 日志类型: INFO  日志内容：Refreshing org.springframework.context.support.GenericApplicationContext@439fed1d: startup date [Thu Aug 17 11:24:35 CST 2017]; root of context hierarchy]
+2017-08-17 11:24:36,133 耗时：36647 [日志来自：druid.pool.DruidAbstractDataSource       日志类型: ERROR 日志内容：maxIdle is deprecated]
+2017-08-17 11:24:36,570 耗时：37084 [日志来自：sf.ehcache.DiskStorePathManager          日志类型: WARN  日志内容：diskStorePath 'C:\Users\lx\AppData\Local\Temp\pbs-ams-management\ehcache' is already used by an existing CacheManager either in the same VM or in a different process.
+The diskStore path for this CacheManager will be set to C:\Users\lx\AppData\Local\Temp\pbs-ams-management\ehcache\ehcache_auto_created7039625547359466270diskstore.
+To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.]
+2017-08-17 11:24:37,441 耗时：37955 [日志来自：druid.pool.DruidDataSource               日志类型: INFO  日志内容：{dataSource-1} inited]
+2017-08-17 11:24:37,611 耗时：38125 [日志来自：ontext.support.GenericApplicationContext 日志类型: INFO  日志内容：Closing org.springframework.context.support.GenericApplicationContext@439fed1d: startup date [Thu Aug 17 11:24:35 CST 2017]; root of context hierarchy]
+2017-08-17 11:24:37,617 耗时：38131 [日志来自：druid.pool.DruidDataSource               日志类型: INFO  日志内容：{dataSource-1} closed]
+2017-08-17 11:48:53,438 耗时：0 [日志来自：t.support.DefaultTestContextBootstrapper 日志类型: INFO  日志内容：Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]]
+2017-08-17 11:48:53,456 耗时：18 [日志来自：t.support.DefaultTestContextBootstrapper 日志类型: INFO  日志内容：Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@14fa6144, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4207c21e, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@b596170, org.springframework.test.context.support.DirtiesContextTestExecutionListener@190c05e2, org.springframework.test.context.transaction.TransactionalTestExecutionListener@64564546, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5bde2a20]]
+2017-08-17 11:48:53,531 耗时：93 [日志来自：factory.xml.XmlBeanDefinitionReader      日志类型: INFO  日志内容：Loading XML bean definitions from class path resource [applicationContext-db.xml]]
+2017-08-17 11:49:25,974 耗时：32536 [日志来自：ontext.support.GenericApplicationContext 日志类型: INFO  日志内容：Refreshing org.springframework.context.support.GenericApplicationContext@38882d9a: startup date [Thu Aug 17 11:49:25 CST 2017]; root of context hierarchy]
+2017-08-17 11:49:27,612 耗时：34174 [日志来自：druid.pool.DruidDataSource               日志类型: INFO  日志内容：{dataSource-1} inited]
+2017-08-17 11:49:27,798 耗时：34360 [日志来自：ontext.support.GenericApplicationContext 日志类型: INFO  日志内容：Closing org.springframework.context.support.GenericApplicationContext@38882d9a: startup date [Thu Aug 17 11:49:25 CST 2017]; root of context hierarchy]
+2017-08-17 11:49:27,803 耗时：34365 [日志来自：druid.pool.DruidDataSource               日志类型: INFO  日志内容：{dataSource-1} closed]

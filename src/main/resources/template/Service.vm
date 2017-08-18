@@ -1,0 +1,28 @@
+package ${package_name}.service;
+
+import com.pbs.ams.common.base.BaseService;
+import ${package_name}.model.${model};
+import ${package_name}.model.${model}Example;
+
+/**
+* ${model}Service接口
+* Created by ams on ${ctime}.
+*/
+public interface ${model}Service extends BaseService<${model}, ${model}Example> {
+
+##    int deleteByPrimaryKey(Long id);
+##
+##    int deleteByPrimaryKeys(String ids);
+##
+##    int insert(${model} record);
+##
+##    int insertSelective(${model} record);
+##
+##    ${model} selectByPrimaryKey(Long id);
+##
+##    int updateByPrimaryKey(${model} record);
+##
+##    int updateByPrimaryKeySelective(${model} record);
+##
+##    int insertTo${model}Snaps();
+}
