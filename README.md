@@ -15,3 +15,5 @@ amsStockBlackWhiteController.java
 
 ManageController  http://localhost:1111/manage/index  applicationContext-shiro.xml   
 UpmsAuthenticationFilter        SSOController
+
+999
