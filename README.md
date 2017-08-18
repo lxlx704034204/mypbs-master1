@@ -4,8 +4,6 @@ zheng-upms模块的zheng-upms-server的webapp里 完全引入了 zheng-admin模�
 
 
 
-
-
 amsStockBlackWhiteController.java
 
 牛皮的淘宝java项目：http://code.taobao.org/p/myfarm/src/myfarm/   ： andStatusEqualTo
@@ -13,3 +11,7 @@ amsStockBlackWhiteController.java
 
 
 // change from zheng  ：      UpmsAuthenticationFilter
+
+
+ManageController  http://localhost:1111/manage/index  applicationContext-shiro.xml   
+UpmsAuthenticationFilter        SSOController
