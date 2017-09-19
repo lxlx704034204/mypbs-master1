@@ -344,7 +344,7 @@
 
     <!--配置Maven 对resource文件 过滤 -->
     <!--由于idea默认是不打包src中的xml文件，so把mapper的xml文件放到resources资源中就可以正常访问！if放在main下面的话
-            需要在maven配置maven对资源文件的访问：-->
+            需要在maven配置maven对资源文件的访问(参考exam-master/pom.xml)：-->
     <resources>
       <resource>
         <directory>src/main/resources</directory>
